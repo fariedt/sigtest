@@ -1,0 +1,69 @@
+
+> scripts@1.0.0 setup
+> node src/setup.js
+
+---- result:
+{
+  "digest": "2KQS1R7wkNWgjPnQFMMPcarYRQ5mu2QQ9WD8tBJdTPky",
+  "effects": {
+    "messageVersion": "v1",
+    "status": {
+      "status": "success"
+    },
+    "executedEpoch": "491",
+    "gasUsed": {
+      "computationCost": "1000000",
+      "storageCost": "2789200",
+      "storageRebate": "2761308",
+      "nonRefundableStorageFee": "27892"
+    },
+    "modifiedAtVersions": [
+      {
+        "objectId": "0x75b895a196f2eeedf9f07e8619621e845c55811eca0e1522a4d39f76c5577cac",
+        "sequenceNumber": "83797545"
+      },
+      {
+        "objectId": "0xd5409522559f0b1f2974a5810a9d898f1aa209416bbe45c8d31e6ee52f3a39f9",
+        "sequenceNumber": "83797545"
+      }
+    ],
+    "transactionDigest": "2KQS1R7wkNWgjPnQFMMPcarYRQ5mu2QQ9WD8tBJdTPky",
+    "mutated": [
+      {
+        "owner": {
+          "AddressOwner": "0xe7fde4b6a2bf6fd10449982af53897802915e7072450567210bed93c35c62815"
+        },
+        "reference": {
+          "objectId": "0x75b895a196f2eeedf9f07e8619621e845c55811eca0e1522a4d39f76c5577cac",
+          "version": 83797546,
+          "digest": "EpSk1wn429PWv3Fdi8B3TtoJqPjMaEYVDxgQdSN2DiMC"
+        }
+      },
+      {
+        "owner": {
+          "AddressOwner": "0xe7fde4b6a2bf6fd10449982af53897802915e7072450567210bed93c35c62815"
+        },
+        "reference": {
+          "objectId": "0xd5409522559f0b1f2974a5810a9d898f1aa209416bbe45c8d31e6ee52f3a39f9",
+          "version": 83797546,
+          "digest": "AuQFneLUcHCC8DPNLru77abDmu3LdNUFPzK6uvbdYxvH"
+        }
+      }
+    ],
+    "gasObject": {
+      "owner": {
+        "AddressOwner": "0xe7fde4b6a2bf6fd10449982af53897802915e7072450567210bed93c35c62815"
+      },
+      "reference": {
+        "objectId": "0xd5409522559f0b1f2974a5810a9d898f1aa209416bbe45c8d31e6ee52f3a39f9",
+        "version": 83797546,
+        "digest": "AuQFneLUcHCC8DPNLru77abDmu3LdNUFPzK6uvbdYxvH"
+      }
+    },
+    "dependencies": [
+      "VhSgLSe5QA2jxjChkQW5Ui8aAATMHr4Fiuhk6LbpEeT",
+      "F5ZftSH5bq5ezPbUhYzg2e45MdzUHywzk4RWJG6NRrU5"
+    ]
+  },
+  "confirmedLocalExecution": false
+}
