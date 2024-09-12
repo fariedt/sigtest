@@ -1,0 +1,20 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node src/setup.js",
+    "sigtest": "node src/sigtest.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mysten/sui.js": "^0.0.0-experimental-20240524224044",
+    "@noble/curves": "^1.6.0",
+    "@noble/hashes": "^1.5.0",
+    "dotenv": "^16.4.5"
+  }
+}
